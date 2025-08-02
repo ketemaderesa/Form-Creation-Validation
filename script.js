@@ -24,16 +24,6 @@ if (password.length < 8) {
     isValid = false;
     messages.push('Password must be at least 8 characters long.');
 }
-feedbackDiv.style.display = 'block';
-if (isValid) {
-    feedbackDiv.textContent = 'Registration successful!';
-    feedbackDiv.style.color = '#28a745';        // Green color for success
-    feedbackDiv.style.backgroundColor = '#d4edda'; // Light green background
-} else {
-    feedbackDiv.innerHTML = messages.join('<br>'); // Show all errors with line breaks
-    feedbackDiv.style.color = '#dc3545';        // Red color for errors
-    feedbackDiv.style.backgroundColor = '#ffbaba';  // Light red background
-}
-  
+  feedbackDiv.style.display = 'block';
 });
 });
