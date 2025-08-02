@@ -1,3 +1,4 @@
 async function fetchUserData() {
-    console.log("fetchUserData function is running!");
+   const apiUrl = 'https://jsonplaceholder.typicode.com/users';
+    console.log("API URL: " + apiUrl);
 }
