@@ -23,3 +23,4 @@ async function fetchUserData() {
         console.error("Error fetching data:", error);
     }
 }
+document.addEventListener('DOMContentLoaded', fetchUserData);
